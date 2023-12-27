@@ -4,7 +4,7 @@ import './ReserveBtn.css'
   return (
     <div className='BrandSection_reserve-btn'>
         <a href="#" className="BrandSection_reserve-btn">
-        Reservation
+            Reservation
         </a>
     </div>
   )

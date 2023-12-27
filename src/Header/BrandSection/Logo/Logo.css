@@ -1,0 +1,9 @@
+.BrandSection__logo-img{
+    transition: all 140ms ease-in;
+    cursor: pointer;
+}
+
+.BrandSection__logo-img:hover{
+    transform: scale(1.1);
+}
+
