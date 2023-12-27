@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../public/fonts/JosefinSans-Medium.ttf);
+}
+
+.BrandSection_reserve-btn{
+    background-color:  #E1B168;
+    padding: 1rem 2rem;
+}
+
+.BrandSection_reserve-btn{
+    color:  #292E36;
+    font-family: 'josefin', Courier, monospace;
+    text-decoration: none;
+}

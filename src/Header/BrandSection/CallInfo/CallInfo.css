@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../public/fonts/JosefinSans-Medium.ttf);
+}
+
+.BrandSection__call-info{
+    background-color: none;
+    border: 2px solid  #E1B168;
+    padding: 1rem 2.5rem;
+}
+
+.call-info-link{
+    text-decoration: none;
+    color: #fff;
+}
