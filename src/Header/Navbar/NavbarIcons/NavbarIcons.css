@@ -1,0 +1,20 @@
+.Navbaricons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Navbaricons-item{
+    margin-right: 1.5rem;
+}
+.Navbaricons-item-svg{
+    transition: all 140ms ease-in;
+
+}
+.Navbaricons-item:hover .Navbaricons-item-svg{
+    fill: #E1B168;
+}
+

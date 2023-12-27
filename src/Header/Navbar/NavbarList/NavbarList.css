@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../public/fonts/JosefinSans-Medium.ttf);
+}
+
+.NavbarList-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.NavbarList-list-item{
+    margin-right: 4rem;
+    list-style-type: none;
+}
+
+.NavbarList-list-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'josefin', Courier, monospace;
+    transition: all 140ms ease-in;
+}
+
+.link-active{
+    color: #E1B168;
+}
+
+.NavbarList-list-link:hover{
+    color:  #e1b1689b;
+}

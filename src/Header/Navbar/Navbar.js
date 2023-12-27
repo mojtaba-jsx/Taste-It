@@ -5,9 +5,9 @@ import NavbarIcons from './NavbarIcons/NavbarIcons'
 
 function Navbar() {
   return (
-    <div>
-      <NavbarIcons/>
+    <div className='Navbar'>
       <NavbarList/>
+      <NavbarIcons/>
     </div>
   )
 }
