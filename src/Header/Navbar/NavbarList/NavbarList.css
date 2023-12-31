@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'josefin';
-    src: url(../../../../public/fonts/JosefinSans-Medium.ttf);
+    src: url('../../../fonts/JosefinSans-Medium.ttf');
 }
+
+
 
 .NavbarList-list{
     display: flex;

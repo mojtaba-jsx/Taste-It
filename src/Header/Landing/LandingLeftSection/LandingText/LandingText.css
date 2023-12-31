@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'jodefin';
+    src: url(../../../../fonts/JosefinSans-Medium.ttf);
+}
+
+.landing__text-text{
+    color: #fff;
+    font-family: 'josefin', Courier, monospace;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}

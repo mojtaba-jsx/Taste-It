@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'josefin';
-    src: url(../../../../public/fonts/JosefinSans-Medium.ttf);
+    src: url('../../../fonts/JosefinSans-Medium.ttf');
 }
-
 .BrandSection__call-info{
     background-color: none;
     border: 2px solid  #E1B168;
@@ -13,6 +12,7 @@
 .call-info-link{
     text-decoration: none;
     color: #fff;
+    font-family: 'josefin', Courier, monospace;
 }
 
 

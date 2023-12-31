@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'josefin';
+    src: url('../../../../fonts/JosefinSans-Medium.ttf');
+}
+
+.LandingTitle-title{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'josefin', Courier, monospace;
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
