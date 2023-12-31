@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'josefin';
-    src: url('../../../../fonts/JosefinSans-Medium.ttf');
+    font-family: 'CormorantInfant-Bold';
+    src: url('../../../../fonts/CormorantInfant-Bold.ttf');
 }
 
 .LandingTitle-title{
-    font-size: 4rem;
+    font-size: 7rem;
     color: #fff;
-    font-family: 'josefin', Courier, monospace;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
     margin-top: 8rem;
     margin-left: 4rem;
 }

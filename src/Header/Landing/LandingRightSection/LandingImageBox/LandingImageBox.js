@@ -2,7 +2,9 @@ import React from 'react'
 import './LandingImageBox.css'
 function LandingImageBox() {
   return (
-    <div>LandingImageBox</div>
+    <div>
+      <img src="landing.png" alt="" />
+    </div>
   )
 }
 

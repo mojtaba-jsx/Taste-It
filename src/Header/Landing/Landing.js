@@ -7,7 +7,7 @@ import LandingRightSection from './LandingRightSection/LandingRightSection'
 
  function Landing() {
   return (
-    <div>
+    <div className='landing'>
         <LandingLeftSection/>
         <LandingRightSection/>
     </div>
