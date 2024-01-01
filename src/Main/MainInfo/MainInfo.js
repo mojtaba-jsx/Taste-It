@@ -1,15 +1,15 @@
 import React from 'react'
-import MainInfoHours from './MainInfoHours/MainInfoHours'
-import MainInfoLocation from './MainInfoLocation/MainInfoLocation'
-import MainInfoReservation from './MainInfoReservation/MainInfoReservation'
+import './MainInfo.css'
+import MainInfoBox from './MainInfoBox/MainInfoBox'
+
 
 
  function MainInfo() {
   return (
-    <div>
-        <MainInfoHours/>
-        <MainInfoLocation/>
-        <MainInfoReservation/>
+    <div className='mainInfo'>
+        <MainInfoBox text={'Riverside 25, San Diego, California'} title={'Locate Us'} image={'./images/location.png'}/>
+        <MainInfoBox text={'Mon To Fri 9:00 AM - 9:00 PM'} title={'Open Hours'} image={'./images/hours.png'}/>
+        <MainInfoBox text={'restaurantate@gmail.com'} title={'Reservation'} image={'./images/reservation.png'}/>
     </div>
   )
 }

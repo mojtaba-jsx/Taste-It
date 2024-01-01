@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'CormorantInfant';
+    src: url(../../../fonts/CormorantInfant-Bold.ttf);
+}
+
+.mainInfoLocation{
+    width: 33.33%;
+    background-color: #fff;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.mainInfoLocation__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.mainInfoLocation__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainInfoLocation__left-image{
+    background-color: #292E36;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+.mainInfoLocation__left{
+    background-color: #292E36;
+    border-radius: 50%;
+}
+.mainInfoLocation__left{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+.mainInfoLocation__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.mainInfoLocation__right-title{
+    font-size: 2rem;
+    font-family:'CormorantInfant', Courier, monospace ;
+}
+
+.mainInfoLocation__right-text{
+    margin-top: 1rem;
+    font-family: 'josefin', Courier, monospace;
+    font-weight: bold;
+}
