@@ -8,11 +8,21 @@
 }
 
 .mainInfoLocation{
-    width: 33.33%;
+    width: 30%;
     background-color: #fff;
     margin-top: 2rem;
     margin-left: 4rem;
+    transition: all 200ms ease-in;
+    padding: 1rem;
+    border-radius: 2rem;
+
 }
+.mainInfoLocation:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 .mainInfoLocation__wrapper{
     display: flex;
     align-items: center;
@@ -30,10 +40,16 @@
     width: 2rem;
     height: 2rem;
 }
+
+
+
+
 .mainInfoLocation__left{
     background-color: #292E36;
     border-radius: 50%;
 }
+
+
 .mainInfoLocation__left{
     width: 4rem;
     height: 4rem;
@@ -48,11 +64,13 @@
 }
 
 .mainInfoLocation__right-title{
+    text-align: center;
     font-size: 2rem;
     font-family:'CormorantInfant', Courier, monospace ;
 }
 
 .mainInfoLocation__right-text{
+    text-align: center;
     margin-top: 1rem;
     font-family: 'josefin', Courier, monospace;
     font-weight: bold;
