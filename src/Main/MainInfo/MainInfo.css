@@ -1,6 +1,6 @@
 .mainInfo{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 4rem;
-
+    background-color:  #FFF8F5;
+    padding-bottom: 4rem;
 }

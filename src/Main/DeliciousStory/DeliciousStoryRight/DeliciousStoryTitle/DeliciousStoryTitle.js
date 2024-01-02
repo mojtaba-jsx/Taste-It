@@ -1,9 +1,13 @@
 import React from 'react'
 import './DeliciousStoryTitle.css'
 
- function DeliciousStoryTitle() {
+ function DeliciousStoryTitle(props) {
   return (
-    <div>DeliciousStoryTitle</div>
+    <div>
+      <h3 className='deliciousStoryTitle'>
+      {props.title}
+      </h3>
+    </div>
   )
 }
 

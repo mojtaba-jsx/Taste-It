@@ -6,7 +6,7 @@ import DeliciousStoryRight from './DeliciousStoryRight/DeliciousStoryRight'
 
  function DeliciousStory() {
   return (
-    <div>
+    <div className='deliciousStory'>
       <DeliciousStoryLeft/>
       <DeliciousStoryRight/>
       

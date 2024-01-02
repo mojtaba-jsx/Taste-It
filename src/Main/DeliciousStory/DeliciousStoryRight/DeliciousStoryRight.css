@@ -1,0 +1,10 @@
+.deliciousStoryRight__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.deliciousStoryRight__bottom-left{
+    margin-right: 1rem;
+}

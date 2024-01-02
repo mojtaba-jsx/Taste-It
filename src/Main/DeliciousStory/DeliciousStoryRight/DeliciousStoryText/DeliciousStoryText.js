@@ -1,8 +1,12 @@
 import React from 'react'
 import './DeliciousStoryText.css'
- function DeliciousStoryText() {
+ function DeliciousStoryText(props) {
   return (
-    <div>DeliciousStoryText</div>
+    <div>
+      <p className="deliciousStoryText">
+     {props.text} 
+      </p>
+    </div>
   )
 }
 

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../fonts/JosefinSans-Medium.ttf);
+}
+
+.deliciousStoryText{
+    font-size: 1rem;
+    font-family: 'josefin', Courier, monospace;
+    width: 19rem;
+    text-align: justify;
+    word-break: break-all;
+    white-space: normal;
+
+}

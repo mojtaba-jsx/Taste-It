@@ -1,0 +1,8 @@
+.deliciousStory{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #FFF8F5;
+    height: 30rem;
+    margin-bottom: 4rem;
+}

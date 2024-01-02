@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(../../../../fonts/CormorantInfant-Bold.ttf);
+}
+.deliciousStoryTitle{
+    font-size: 2rem;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
+    margin-bottom: 1rem;
+}

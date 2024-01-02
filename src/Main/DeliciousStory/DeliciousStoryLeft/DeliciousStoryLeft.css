@@ -1,0 +1,12 @@
+.deliciousStoryLeft-image{
+    width: 38rem;
+    height: auto;
+    opacity: 0.8;
+    transition: all 200ms ease-in;
+}
+
+.deliciousStoryLeft-image:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    cursor: pointer;
+}
