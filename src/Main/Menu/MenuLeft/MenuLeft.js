@@ -6,7 +6,7 @@ import MenuLeftImage from './MenuLeftImage/MenuLeftImage'
 import MenuLeftButton from './MenuLeftButton/MenuLeftButton'
 function MenuLeft() {
   return (
-    <div>
+    <div className='menuLeft'>
         <MenuLeftInfo/>
         <MenuLeftImage/>
         <MenuLeftButton/>

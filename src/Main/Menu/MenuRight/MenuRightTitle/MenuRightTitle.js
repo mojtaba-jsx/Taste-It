@@ -1,8 +1,12 @@
 import React from 'react'
 import './MenuRightTitle.css'
- function MenuRightTitle() {
+ function MenuRightTitle(props) {
   return (
-    <div>MenuRightTitle</div>
+    <div>
+      <h2 className='menuRightTitle-title'>
+      {props.name}
+      </h2>
+    </div>
   )
 }
 

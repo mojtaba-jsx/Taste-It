@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../fonts/JosefinSans-Medium.ttf);
+}
+.menuLeftButton{
+    margin-top: 4rem;
+}
+.menuLeftButton-btn{
+    padding: 1rem 4rem;
+    border: 2px solid  #E1B168;
+    color: #E1B168;
+    text-decoration: none;
+    font-family: 'josefin', Courier, monospace;
+    transition: all 200ms ease-in;
+}
+
+.menuLeftButton-btn:hover{
+    color: #fff;
+    background-color: #E1B168;
+}

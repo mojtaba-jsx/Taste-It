@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(./../../../../fonts/CormorantInfant-Bold.ttf);
+}
+.menuRightTitle-title{
+    font-size: 2rem;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
+    margin-bottom: 2.5rem;
+    color:  #292E36;
+    opacity: 0.8;
+}

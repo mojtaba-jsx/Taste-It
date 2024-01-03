@@ -1,0 +1,6 @@
+.menu{
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}

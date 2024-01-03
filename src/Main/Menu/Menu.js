@@ -6,7 +6,7 @@ import MenuRight from './MenuRight/MenuRight'
 
  function Menu() {
   return (
-    <div>
+    <div className='menu'>
         <MenuLeft/>
         <MenuRight/>
 
