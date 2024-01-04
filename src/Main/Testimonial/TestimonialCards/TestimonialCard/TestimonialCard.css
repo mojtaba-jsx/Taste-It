@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../fonts/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(../../../../fonts/CormorantInfant-Bold.ttf);
+}
+.testimonialCard{
+    width: 28rem;
+    height: 17rem;
+    background-color: red;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color: #343942;
+    border-radius: 1rem;
+    transition: all 200ms ease-in;
+}
+
+.testimonialCard__wrapper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.testimonialCard-top{
+    display: flex;
+    align-items: center;
+}
+
+.testimonialCard-top-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialCard-top-right-image{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    transition: all 200ms ease-in;
+
+}
+
+.testimonialCard-top-right{
+    position: relative;
+
+}
+
+.testimonialCard-top-right-comma{
+    position: absolute;
+    left: 1rem;
+    top: 0.2rem;
+    background-color: #E1B168 ;
+    border-radius: 50%;
+    padding: 0.2rem 0.4rem;
+    border: 2px solid #292E36;
+}
+
+.testimonialCard-top-left-name{
+    font-size: 2rem;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
+    color: #fff;
+}
+
+.testimonialCard-top-left-text{
+    font-size: 1rem;
+    color: #E1B168;
+    font-family: 'josefin', Courier, monospace;
+    margin-top: 0.5rem;
+}
+
+.testimonialCard-top-left{
+    margin-left: 1rem;
+}
+
+.testimonialCard-line{
+    display: block;
+    margin: 0 auto;
+}
+
+.testimonialCard-bottom-text{
+    text-align: justify;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
+    color: #fff;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.testimonialCard:hover:hover{
+    cursor: pointer;
+    box-shadow: #E1B168 0px 2px 4px, #E1B168 0px 7px 13px -3px, #E1B168 0px -3px 0px inset;
+}
+
+.testimonialCard:hover .testimonialCard-top-right-image{
+    transform: scale(1.2);
+}
