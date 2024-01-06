@@ -5,6 +5,7 @@ import Menu from './Menu/Menu'
 import Testimonial from './Testimonial/Testimonial'
 import MainImage from './MainImage/MainImage'
 import Offers from './Offers/Offers'
+import PopularMenu from './PopularMenu/PopularMenu'
  function Main() {
   return (
     <div className='main-section'>
@@ -14,6 +15,7 @@ import Offers from './Offers/Offers'
       <Testimonial/>
       <MainImage/>
       <Offers/>
+      <PopularMenu/>
     </div>
   )
 }
