@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../../fonts/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(../../../../fonts/CormorantInfant-Bold.ttf);
+}
+.offersBox{
+    width: 40rem;
+    height: 25rem;
+    position: relative;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.offersBox-image{
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.offersBox__wrapper{
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+}
+
+.offersBox__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offersBox__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 2.5rem; */
+    width: 50%;
+}
+
+.offersBox__left-top{
+    position: relative;
+}
+.offersBox__left-top-text{
+    position: absolute;
+    top: 2rem;
+    left: 1.8rem;
+    color:  #E1B168;
+    font-family:'CormorantInfant-Bold', Courier, monospace;
+    font-size: 1.8rem;
+}
+
+.offersBox__left-bottom{
+    margin-top: 2rem;
+}
+
+.offersBox__left-bottom-offer{
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-top: 2px solid #292E36;
+    border-bottom: 2px solid #292E36;
+    text-transform: uppercase;
+    font-family: 'josefin', Courier, monospace;
+    word-spacing: 0.2rem;
+    width: 10rem;
+    display: inline-block;
+}
+
+.offersBox__left-bottom-title{
+    font-size: 2rem;
+    margin-top: 1rem;
+    width: 14rem;
+    font-family:'CormorantInfant-Bold', Courier, monospace;
+}
+
+.offersBox__left-bottom-text{
+    font-size: 1rem;
+    font-family: 'josefin', Courier, monospace;
+    margin-top: 1rem;
+}

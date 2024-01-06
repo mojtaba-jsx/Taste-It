@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(../../../fonts/CormorantInfant-Bold.ttf);
+}
+
+.offersInfo{
+    margin-top: 4rem;
+}
+.offersInfo-name{
+    font-family:'josefin', Courier, monospace;
+    font-size: 1rem;
+    border-top: 2px solid  #E1B168;
+    border-bottom: 2px solid  #E1B168;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    color: black;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 4rem;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.offersInfo-title{
+    font-size: 2.5rem;
+    font-family: 'CormorantInfant-Bold', Courier, monospace;
+    margin-top: 1rem;
+    color:  #292E36;
+    text-align: center;
+
+}
+
+.offersInfo-text{
+    font-size: 1rem;
+    font-family:'josefin', Courier, monospace;
+    margin-top: 1rem;
+    color:  #555555;
+    text-align: center;
+}
