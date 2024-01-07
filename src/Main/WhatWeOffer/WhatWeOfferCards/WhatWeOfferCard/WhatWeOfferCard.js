@@ -1,8 +1,15 @@
 import React from 'react'
 import './WhatWeOfferCard.css'
- function WhatWeOfferCard() {
+ function WhatWeOfferCard(props) {
   return (
-    <div>WhatWeOfferCard</div>
+    <div className='whatWeOfferCard'>
+      <div className='WhatWeOfferCard-top'>
+        <img src={props.image} alt="image" />
+      </div>
+      <div className='WhatWeOfferCard-bottom'>
+      {props.text}
+      </div>
+    </div>
   )
 }
 

@@ -1,0 +1,9 @@
+.whatWeOffer{
+    background-color:  #292E36;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
