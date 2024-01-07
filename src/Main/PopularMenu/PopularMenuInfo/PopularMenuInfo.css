@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'CormorantInfant-Bold';
+    src: url(../../../fonts/CormorantInfant-Bold.ttf);
+}
+
+
 .popularMenuInfo{
     margin-top: 8rem;
 }
