@@ -2,7 +2,9 @@ import React from 'react'
 import './FooterBottom.css'
  function FooterBottom() {
   return (
-    <div>FooterBottom</div>
+    <div className='footerBottom'>
+      © Copyright - TastEat | Designed by <a href="#" className="footerBottom-link">Mojtaba.JSX</a>
+    </div>
   )
 }
 

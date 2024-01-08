@@ -30,6 +30,12 @@
     background-color: #fff;
     color: black;
     border: none;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
 
+.footerTopEmail-btn:hover{
+    background-color:rgba(225, 177, 104, 1) ;
+    color: #fff;
 }
 

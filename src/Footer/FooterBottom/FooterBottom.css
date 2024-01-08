@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../fonts/JosefinSans-Medium.ttf);
+}
+.footerBottom{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'josefin', Courier, monospace;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border-top: 2px solid rgba(133, 133, 133, 1) ;
+    height: 100%;
+}
+
+.footerBottom-link{
+    text-decoration: none;
+    color: rgba(225, 177, 104, 1);
+}
