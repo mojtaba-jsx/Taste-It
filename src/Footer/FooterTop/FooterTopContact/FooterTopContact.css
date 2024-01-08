@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+
+.footerTopContact{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.footerTopContact-title{
+    font-size: 1.2rem;
+    font-family: 'josefin', Courier, monospace;
+    text-transform: uppercase;
+    border-top: 2px solid rgba(225, 177, 104, 1);
+    border-bottom: 2px solid rgba(225, 177, 104, 1);
+    width: 7rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: #fff;
+}
+
+.footerTopContact-address{
+    font-size: 1rem;
+    font-family: 'josefin', Courier, monospace;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.footerTopContact-number{
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.footerTopContact-number-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'josefin', Courier, monospace;
+}
+
+.footerTopContact-email{
+    margin-top: 1rem;
+}
+
+.footerTopContact-email-link{
+    text-decoration: none;
+    color: rgba(225, 177, 104, 1);
+    font-family: 'josefin', Courier, monospace;
+}

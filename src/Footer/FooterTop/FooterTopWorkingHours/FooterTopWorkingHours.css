@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+.footerTopWorkingHours{
+    height: 12rem;
+}
+.footerTopWorkingHours-title{
+    font-size: 1.2rem;
+    font-family: 'josefin', Courier, monospace;
+    text-transform: uppercase;
+    border-top: 2px solid rgba(225, 177, 104, 1);
+    border-bottom: 2px solid rgba(225, 177, 104, 1);
+    width: 14rem;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: #fff;
+}
+
+.footerTopWorkingHours{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTopWorkingHours span{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ .footerTopWorkingHours span{
+    font-family: 'josefin', Courier, monospace;
+    color: #fff;
+ }
+
+ .footerTopWorkingHours span a{
+    text-decoration: none;
+    color:rgba(225, 177, 104, 1) ;
+ }
+
+ .footerTopWorkingHours span{
+    margin-top: 1rem;
+ }

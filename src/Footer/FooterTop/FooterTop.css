@@ -1,0 +1,12 @@
+.footerTop{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTop-top,.footerTop-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

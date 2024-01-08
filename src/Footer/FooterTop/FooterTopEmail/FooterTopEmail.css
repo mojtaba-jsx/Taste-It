@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+.footerTopEmail-box{
+    display: flex;
+}
+.footerTopEmail-text{
+    text-align: center;
+}
+
+.footerTopEmail-input{
+    padding: 1rem 5rem;
+    background-color: transparent;
+    border: 1px solid rgba(133, 133, 133, 1);
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.footerTopEmail-input::placeholder{
+    font-family: 'josefin', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.footerTopEmail-btn{
+    padding: 1rem 4rem;
+    font-size: 1.2rem;
+    font-family: 'josefin', Courier, monospace;
+    background-color: #fff;
+    color: black;
+    border: none;
+
+}
+

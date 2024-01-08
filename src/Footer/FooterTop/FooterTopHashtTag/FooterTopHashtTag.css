@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+
+.footerTopHashtTag-text{
+    font-size: 1.4rem;
+    font-family: 'josefin', Courier, monospace;
+    color: #fff;
+}

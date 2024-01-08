@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'josefin';
+    src: url(../../../fonts/JosefinSans-Medium.ttf);
+}
+.footerTopLogo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.footerTopLogo-text{
+    font-size: 1.2rem;
+    font-family: 'josefin', Courier, monospace;
+    text-align: center;
+    color: #fff;
+    margin-top: 1rem;
+}

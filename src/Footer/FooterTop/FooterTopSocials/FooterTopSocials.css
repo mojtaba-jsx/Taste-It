@@ -1,0 +1,18 @@
+.footerTopSocials{
+    width: 20rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerTopSocials div{
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+.footerTopSocials div svg {
+    fill: #fff;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
