@@ -8,6 +8,7 @@ import Offers from './Offers/Offers'
 import PopularMenu from './PopularMenu/PopularMenu'
 import WhatWeOffer from './WhatWeOffer/WhatWeOffer'
 import Blog from './Blog/Blog'
+import Reservation from './Reservation/Reservation'
  function Main() {
   return (
     <div className='main-section'>
@@ -20,6 +21,7 @@ import Blog from './Blog/Blog'
       <PopularMenu/>
       <WhatWeOffer/>
       <Blog/>
+      <Reservation/>
     </div>
   )
 }
