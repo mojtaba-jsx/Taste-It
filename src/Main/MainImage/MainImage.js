@@ -3,7 +3,7 @@ import './MainImage.css'
  function MainImage() {
   return (
     <div className='mainImage'>
-        <img src="./images/MainImage.png" alt="image" className='mainImage-image' />
+        <img src="./images/MainImage/MainImage.png" alt="Main" className='mainImage-image' />
 
 
     </div>

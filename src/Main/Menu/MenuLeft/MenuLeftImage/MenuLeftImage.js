@@ -3,7 +3,7 @@ import './MenuLeftImage.css'
  function MenuLeftImage() {
   return (
     <div className='menuLeftImage'>
-      <img src="./images/Menu.png" alt="image" />
+      <img src="./images/Menu/Menu.png" alt="Menu" />
     </div>
   )
 }

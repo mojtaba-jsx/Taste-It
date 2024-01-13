@@ -3,7 +3,7 @@ import './Logo.css'
  function Logo() {
   return (
     <div>
-        <img src="./images/logo.png" className='BrandSection__logo-img' alt="logo" />
+        <img src="./images/logo/logo.png" className='BrandSection__logo-img' alt="logo" />
     </div>
   )
 }

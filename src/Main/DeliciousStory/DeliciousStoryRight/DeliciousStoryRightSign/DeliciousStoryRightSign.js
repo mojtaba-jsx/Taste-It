@@ -4,7 +4,7 @@ import './DeliciousStoryRightSign.css'
   return (
     <div className='deliciousStoryRightSign'>
       <p className="deliciousStoryRightSign-text"> JOSEFINE</p>
-      <img src="./images/sign.png" alt="image"  className='deliciousStoryRightSign'/>
+      <img src="./images/DeliciousStory/sign.png" alt="sign"  className='deliciousStoryRightSign'/>
     </div>
   )
 }

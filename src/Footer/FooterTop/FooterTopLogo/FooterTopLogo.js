@@ -7,7 +7,7 @@ function FooterTopLogo() {
         Join our mailing list for updates, <br />
         Get news & offers events.
       </p>
-      <img src="./images/logo.png" alt="image" />
+      <img src="./images/Logo/logo.png" alt="logo" />
     </div>
   );
 }

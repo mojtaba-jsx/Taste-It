@@ -3,7 +3,7 @@ import './LandingImageBox.css'
 function LandingImageBox() {
   return (
     <div>
-      <img src="landing.png" alt="" />
+      <img src="./images/Landing/landing.png" alt="" />
     </div>
   )
 }
