@@ -4,7 +4,7 @@ import OffersInfo from './OffersInfo/OffersInfo'
 import OffersBoxes from './OffersBoxes/OffersBoxes'
  function Offers() {
   return (
-    <div>
+    <div className='offers'>
       <OffersInfo/>
       <OffersBoxes/>
       

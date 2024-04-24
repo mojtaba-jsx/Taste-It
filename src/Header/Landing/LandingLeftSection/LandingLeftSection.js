@@ -8,7 +8,7 @@ import LandingButton from './LandingButton/LandingButton'
 
  function LandingLeftSection() {
   return (
-    <div>
+    <div className='landing-left-section'>
         <LandingTitle/>
         <LandingText/>
         <LandingButton/>

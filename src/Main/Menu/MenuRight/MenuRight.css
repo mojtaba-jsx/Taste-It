@@ -5,3 +5,12 @@
 .MenuRightItem-right{
     width: 40rem;
 }
+
+@media screen and (max-width:1400px) {
+    .MenuRight{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+}

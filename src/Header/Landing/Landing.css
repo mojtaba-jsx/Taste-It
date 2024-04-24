@@ -1,5 +1,12 @@
 .landing{
     display: flex;
     justify-content: space-around;
+
     /* margin-bottom: 4rem; */
+}
+
+@media screen and (max-width:1400px) {
+    .landing{
+        flex-wrap: wrap;
+    }
 }

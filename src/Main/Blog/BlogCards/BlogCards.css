@@ -3,3 +3,9 @@
     justify-content: space-around;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width:1200px) {
+.blogCards{
+    flex-wrap: wrap;
+}
+}

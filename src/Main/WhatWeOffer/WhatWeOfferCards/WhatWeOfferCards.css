@@ -4,3 +4,15 @@
     margin-right: 4rem;
     margin-top: 2rem;
 }
+
+@media screen and (max-width:1400px) {
+    .whatWeOfferCards{
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:980px) {
+    .whatWeOfferCards{
+        flex-wrap: wrap;
+    }
+}

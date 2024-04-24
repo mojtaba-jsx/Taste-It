@@ -10,3 +10,30 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+
+@media screen and (max-width:1400px) {
+    .deliciousStoryLeft-image{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .deliciousStoryLeft-image{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:520px) {
+    .deliciousStoryLeft-image{
+        width: 24rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .deliciousStoryLeft-image{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:360px) {
+    .deliciousStoryLeft-image{
+        width: 14rem;
+    }
+}

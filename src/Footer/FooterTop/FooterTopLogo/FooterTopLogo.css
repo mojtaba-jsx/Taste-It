@@ -1,23 +1,39 @@
 @font-face {
-    font-family: 'josefin';
-    src: url(../../../fonts/JosefinSans-Medium.ttf);
+  font-family: "josefin";
+  src: url(../../../fonts/JosefinSans-Medium.ttf);
 }
-.footerTopLogo{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    transition: all 200ms ease-in;
-}
-
-.footerTopLogo:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+.footerTopLogo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  transition: all 200ms ease-in;
 }
 
-.footerTopLogo-text{
-    font-size: 1.2rem;
-    font-family: 'josefin', Courier, monospace;
-    text-align: center;
-    color: #fff;
-    margin-top: 1rem;
+.footerTopLogo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footerTopLogo-text {
+  font-size: 1.2rem;
+  font-family: "josefin", Courier, monospace;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 540px) {
+  .footerTopLogo img {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .footerTopLogo img {
+    width: 16rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footerTopLogo img {
+    width: 14rem;
+  }
 }

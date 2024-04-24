@@ -1,41 +1,63 @@
 @font-face {
-    font-family: 'josefin';
-    src: url(../../../fonts/JosefinSans-Medium.ttf);
+  font-family: "josefin";
+  src: url(../../../fonts/JosefinSans-Medium.ttf);
 }
-.footerTopEmail-box{
-    display: flex;
+.footerTopEmail-box {
+  display: flex;
 }
-.footerTopEmail-text{
-    text-align: center;
-}
-
-.footerTopEmail-input{
-    padding: 1rem 5rem;
-    background-color: transparent;
-    border: 1px solid rgba(133, 133, 133, 1);
-    outline: none;
-    font-size: 1.2rem;
-    color: #fff;
+.footerTopEmail-text {
+  text-align: center;
 }
 
-.footerTopEmail-input::placeholder{
-    font-family: 'josefin', Courier, monospace;
-    font-size: 1.2rem;
+.footerTopEmail-input {
+  padding: 1rem 5rem;
+  background-color: transparent;
+  border: 1px solid rgba(133, 133, 133, 1);
+  outline: none;
+  font-size: 1.2rem;
+  color: #fff;
 }
 
-.footerTopEmail-btn{
-    padding: 1rem 4rem;
-    font-size: 1.2rem;
-    font-family: 'josefin', Courier, monospace;
-    background-color: #fff;
-    color: black;
-    border: none;
-    transition: all 200ms ease-in;
-    cursor: pointer;
+.footerTopEmail-input::placeholder {
+  font-family: "josefin", Courier, monospace;
+  font-size: 1.2rem;
 }
 
-.footerTopEmail-btn:hover{
-    background-color:rgba(225, 177, 104, 1) ;
-    color: #fff;
+.footerTopEmail-btn {
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  font-family: "josefin", Courier, monospace;
+  background-color: #fff;
+  color: black;
+  border: none;
+  transition: all 200ms ease-in;
+  cursor: pointer;
 }
 
+.footerTopEmail-btn:hover {
+  background-color: rgba(225, 177, 104, 1);
+  color: #fff;
+}
+
+@media screen and (max-width: 680px) {
+  .footerTopEmail-input {
+    padding: 1rem 2rem;
+  }
+  .footerTopEmail-btn {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .footerTopEmail-btn {
+    padding: 1rem 1rem;
+  }
+  .footerTopEmail-input {
+    padding: 1rem 1rem;
+    width: 16rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footerTopEmail-box {
+    flex-direction: column;
+  }
+}

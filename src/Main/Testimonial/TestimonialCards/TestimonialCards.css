@@ -4,3 +4,9 @@
     margin-top: 2rem;
     padding-bottom: 8rem;
 }
+
+@media screen and (max-width:1400px) {
+    .testimonialCards{
+        flex-wrap: wrap;
+    }
+}

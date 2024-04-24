@@ -38,3 +38,10 @@
     color: #fff;
     line-height: 1.2rem;
 }
+
+@media screen and (max-width:1400px) {
+    .whatWeOfferInfo{
+        margin: 0 auto;
+        text-align: center;
+    }
+}

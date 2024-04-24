@@ -1,19 +1,52 @@
 @font-face {
-    font-family: 'josefin';
-    src: url(../../fonts/JosefinSans-Medium.ttf);
+  font-family: "josefin";
+  src: url(../../fonts/JosefinSans-Medium.ttf);
 }
-.footerBottom{
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'josefin', Courier, monospace;
-    color: #fff;
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    border-top: 2px solid rgba(133, 133, 133, 1) ;
-    height: 100%;
+.footerBottom {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "josefin", Courier, monospace;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  border-top: 2px solid rgba(133, 133, 133, 1);
+  height: 100%;
 }
 
-.footerBottom-link{
-    text-decoration: none;
-    color: rgba(225, 177, 104, 1);
+.footerBottom-link {
+  text-decoration: none;
+  color: rgba(225, 177, 104, 1);
+}
+
+@media screen and (max-width: 1200px) {
+  .footerBottom {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footerBottom {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .footerBottom {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .footerBottom {
+    width: 20rem;
+    line-height: 1.4rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .footerBottom {
+    width: 16rem;
+    line-height: 1.4rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+  }
 }

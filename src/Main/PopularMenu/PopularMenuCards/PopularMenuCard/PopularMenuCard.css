@@ -60,3 +60,10 @@
     font-family: 'josefin', Courier, monospace;
     margin-top: 1rem;
 }
+
+@media screen and (max-width:1400px) {
+    .popularMenuCard{
+        margin: 0 auto;
+        margin-bottom: 2.8rem;
+    }
+    }

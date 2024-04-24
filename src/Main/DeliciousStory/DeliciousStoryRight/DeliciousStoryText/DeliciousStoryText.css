@@ -12,3 +12,18 @@
     white-space: normal;
 
 }
+
+@media screen and (max-width: 1400px) {
+    .deliciousStoryText{
+      text-align: center;
+    }
+
+  }
+@media screen and (max-width: 380px) {
+    .deliciousStoryText{
+      text-align: center;
+      width: 14rem;
+      line-height: 1.4rem;
+    }
+
+  }

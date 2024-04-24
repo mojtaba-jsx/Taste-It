@@ -4,7 +4,7 @@
 }
 .landing__button{
     margin-top: 4rem;
-    margin-left: 4rem;
+   
 }
 .landing__button-link{
     background-color: none;
@@ -28,3 +28,13 @@
     color: #292E36;
     font-weight: bold;
 }
+
+@media screen and (max-width:1400px) {
+.landing__button-link{
+    margin: 0 auto;
+}
+.landing__button{
+    text-align: center;
+}
+}
+

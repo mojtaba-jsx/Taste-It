@@ -9,4 +9,23 @@
     font-family: 'CormorantInfant-Bold', Courier, monospace;
     margin-top: 8rem;
     margin-left: 4rem;
+
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width:1400px) {
+    .LandingTitle-title{
+        text-align: center;
+    }
+}
+@media screen and (max-width:670px) {
+    .LandingTitle-title{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .LandingTitle-title{
+        font-size:2.8rem;
+    }
 }

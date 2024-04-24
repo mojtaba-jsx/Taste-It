@@ -1,0 +1,28 @@
+.landing-image-box-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:770px) {
+    .landing-image-box{
+        width: 34rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .landing-image-box{
+        width: 24rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .landing-image-box{
+        width: 18rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .landing-image-box{
+        width: 14rem;
+    }
+}

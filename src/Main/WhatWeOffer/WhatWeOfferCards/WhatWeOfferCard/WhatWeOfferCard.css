@@ -40,3 +40,10 @@
     margin-bottom: 2rem;
     transition: all 200ms ease-in;
 }
+
+@media screen and (max-width:980px) {
+    .whatWeOfferCard{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}

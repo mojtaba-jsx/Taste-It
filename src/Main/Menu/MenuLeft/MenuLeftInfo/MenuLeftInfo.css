@@ -26,3 +26,14 @@
     font-family:'josefin', Courier, monospace;
     margin-top: 1rem;
 }
+
+@media screen and (max-width:560px) {
+    .menuLeftInfo-text{
+        width: 20rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .menuLeftInfo-title{
+        font-size: 2rem;
+    }
+}

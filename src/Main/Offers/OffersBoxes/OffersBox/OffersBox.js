@@ -35,7 +35,7 @@ function OffersBox(props) {
         </div>
 
         <div className="offersBox__right">
-          <img src={props.foodImage} alt="image" />
+          <img className="offersBox__right-image" src={props.foodImage} alt="image" />
         </div>
       </div>
 

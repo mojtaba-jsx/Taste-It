@@ -1,17 +1,16 @@
-import React from 'react'
-import './Landing.css'
+import React from "react";
+import "./Landing.css";
 
-import LandingLeftSection from './LandingLeftSection/LandingLeftSection'
-import LandingRightSection from './LandingRightSection/LandingRightSection'
+import LandingLeftSection from "./LandingLeftSection/LandingLeftSection";
+import LandingRightSection from "./LandingRightSection/LandingRightSection";
 
-
- function Landing() {
+function Landing() {
   return (
-    <div className='landing'>
-        <LandingLeftSection/>
-        <LandingRightSection/>
+    <div className="landing">
+      <LandingLeftSection />
+      <LandingRightSection />
     </div>
-  )
+  );
 }
 
-export default Landing
+export default Landing;

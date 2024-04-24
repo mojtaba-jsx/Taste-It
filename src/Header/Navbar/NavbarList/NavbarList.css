@@ -33,3 +33,17 @@
 .NavbarList-list-link:hover{
     color:  #e1b1689b;
 }
+
+@media screen and (max-width:1062px) {
+.Navbar-List{
+    width: 100%;
+}
+}
+@media screen and (max-width:885px) {
+.NavbarList-list{
+    flex-wrap: wrap;
+}
+.NavbarList-list-item{
+    margin-top: 1rem;
+}
+}

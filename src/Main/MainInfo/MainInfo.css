@@ -4,3 +4,9 @@
     background-color:  #FFF8F5;
     padding-bottom: 4rem;
 }
+
+@media screen and (max-width:1200px) {
+    .mainInfo{
+        flex-wrap: wrap;
+    }
+}

@@ -9,3 +9,11 @@
     color:  #292E36;
     opacity: 0.8;
 }
+
+
+@media screen and (max-width:1400px) {
+    .menuRightTitle-title{
+        text-align: center;
+    }
+
+}

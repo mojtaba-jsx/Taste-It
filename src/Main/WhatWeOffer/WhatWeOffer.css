@@ -7,3 +7,9 @@
     padding-bottom: 7rem;
     padding-top: 7rem;
 }
+
+@media screen and (max-width:1400px) {
+    .whatWeOffer{
+        flex-wrap: wrap;
+    }
+}

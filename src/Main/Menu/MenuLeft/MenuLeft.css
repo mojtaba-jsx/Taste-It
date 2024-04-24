@@ -1,3 +1,11 @@
 .menuLeft{
     margin-left: 4rem;
 }
+
+@media screen and (max-width:1400px) {
+    .menuLeft{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

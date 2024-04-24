@@ -11,4 +11,27 @@
     margin-left: 4rem;
     text-align: justify;
     line-height: 1.8rem;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-width:1400px) {
+    .landing__text-text{
+        text-align: center;
+    }
+}
+@media screen and (max-width:670px) {
+    .landing__text-text{
+        width: 30rem;
+    }
+}
+@media screen and (max-width:560px) {
+    .landing__text-text{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .landing__text-text{
+        width: 14rem;
+    }
 }

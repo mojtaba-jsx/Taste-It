@@ -49,3 +49,15 @@
     color: rgba(225, 177, 104, 1);
     font-family: 'josefin', Courier, monospace;
 }
+
+
+@media screen and (max-width:1200px) {
+.footerTopContact{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.footerTopContact-title{
+    margin: 0 auto;
+}
+}
