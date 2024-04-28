@@ -15,6 +15,6 @@ I hope you have a good day This Template Developed By This Techs In Responsive:
 And You Can See The Image Of This Template:
 
  
-![Logo](https://github.com/mojtaba-jsx/Todo-List/blob/main/public/Capture.PNG)
+![Logo](https://github.com/mojtaba-jsx/Taste-It/blob/main/public/images/Capture.PNG)
 
 
