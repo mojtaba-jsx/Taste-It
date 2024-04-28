@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Taste-It/static/css/main.d95026d7.css",
+    "main.js": "/Taste-It/static/js/main.83e2b706.js",
+    "static/media/reservation-1.png": "/Taste-It/static/media/reservation-1.fda81826092f1e8f148e.png",
+    "static/media/CormorantInfant-Bold.ttf": "/Taste-It/static/media/CormorantInfant-Bold.14a69efd2d6a7f1a1c6b.ttf",
+    "static/media/JosefinSans-Medium.ttf": "/Taste-It/static/media/JosefinSans-Medium.3a0ce90aeb02cf6a189b.ttf",
+    "index.html": "/Taste-It/index.html",
+    "main.d95026d7.css.map": "/Taste-It/static/css/main.d95026d7.css.map",
+    "main.83e2b706.js.map": "/Taste-It/static/js/main.83e2b706.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d95026d7.css",
+    "static/js/main.83e2b706.js"
+  ]
+}
